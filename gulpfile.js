@@ -80,7 +80,7 @@ gulp.task('cleanBuildDoc', ['cleanup'], () => buildDoc());
 
 gulp.task('copyBabelPolyfill', ['cleanup'], () => gulp
   .src('./node_modules/babel-polyfill/dist/polyfill.min.js')
-  .pipe(gulp.dest('./dist/vendor/babelpolyfill/')));
+  .pipe(gulp.dest('./dist/vendor/babel-polyfill/')));
 
 gulp.task('copyBackbone', ['cleanup'], () => gulp
   .src('./node_modules/backbone/backbone-min.{js,map}')
