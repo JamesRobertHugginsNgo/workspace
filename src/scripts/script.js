@@ -1,6 +1,4 @@
 $(() => {
-  console.log('DOCUMENT READY');
-
   $.ajax({
     error: (...args) => {
       console.log('ERROR', ...args);
